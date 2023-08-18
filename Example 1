@@ -1,0 +1,8 @@
+class Shapes:
+  def __init__(self, length, width):
+    self.length = length
+    self.width = width
+  def areaRect(self):
+    return self.length * self.width
+rectangle = Shapes(12, 6)
+rectangle.areaRect()
